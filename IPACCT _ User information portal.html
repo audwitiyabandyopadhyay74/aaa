@@ -1,0 +1,241 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0026)http://10.254.254.88/0/up/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+	 
+	<meta name="Author" content="IPACCT"> 
+	<meta name="description" content=""> 
+	<meta name="keywords" content=""> 
+	<meta name="robots" content="all"> 
+	<meta http-equiv="Pragma" content="no-cache"> 
+	<title>IPACCT | User information portal</title> 
+	<link rel="stylesheet" type="text/css" href="./IPACCT _ User information portal_files/style.css" title="" charset="utf-8"> 
+	<link rel="shortcut icon" href="http://10.254.254.88/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="http://10.254.254.88/favicon.ico" type="image/x-icon">
+	<script src="./IPACCT _ User information portal_files/jq.js.download"></script> 
+	<script src="./IPACCT _ User information portal_files/jquery.marquee.js.download"></script> 
+<script type="text/javascript"> 
+ 
+var Event = {
+	add: function(obj,type,fn) {
+		if (obj.attachEvent) {
+			obj['e'+type+fn] = fn;
+			obj[type+fn] = function() { obj['e'+type+fn](window.event); }
+			obj.attachEvent('on'+type,obj[type+fn]);
+		} else
+		obj.addEventListener(type,fn,false);
+	},
+	remove: function(obj,type,fn) {
+		if (obj.detachEvent) {
+			obj.detachEvent('on'+type,obj[type+fn]);
+			obj[type+fn] = null;
+		} else
+		obj.removeEventListener(type,fn,false);
+	}
+}
+ 
+function $() {
+	var elements = new Array();
+	for (var i=0;i<arguments.length;i++) {
+		var element = arguments[i];
+		if (typeof element == 'string') element = document.getElementById(element);
+		if (arguments.length == 1) return element;
+		elements.push(element);
+	}
+	return elements;
+}
+ 
+String.prototype.trim = function() {
+	return this.replace(/^\s+|\s+$/,"");
+}
+ 
+function addClassName(el,className) {
+	removeClassName(el,className);
+	el.className = (el.className + " " + className).trim();
+}
+ 
+function removeClassName(el,className) {
+	el.className = el.className.replace(className,"").trim();
+}
+ 
+var ZebraTable = {
+	bgcolor: '',
+	classname: '',
+	stripe: function(el) {
+		if (!$(el)) return;
+		var rows = $(el).getElementsByTagName('tr');
+		for (var i=1,len=rows.length;i<len;i++) {
+			if (i % 2 == 0) rows[i].className = 'alt';
+			Event.add(rows[i],'mouseover',function() { ZebraTable.mouseover(this); });
+			Event.add(rows[i],'mouseout',function() { ZebraTable.mouseout(this); });
+		}
+	},
+	mouseover: function(row) {
+		this.bgcolor = row.style.backgroundColor;
+		this.classname = row.className;
+		addClassName(row,'over');
+	},
+	mouseout: function(row) {
+		removeClassName(row,'over');
+		addClassName(row,this.classname);
+		row.style.backgroundColor = this.bgcolor;
+	}
+}
+ 
+window.onload = function() {
+	ZebraTable.stripe('mytable');
+}
+
+</script>
+
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1009.0" data-gr-ext-installed=""> 
+<div class="username">
+<p>Welcome, 
+</p><p>MANASI BANDYOPADHYAY
+
+
+
+</p></div> 
+<div id="doc3" class="yui-t3"> 
+  <div id="hr"> 
+		<table cellspacing="0" cellpadding="0" width="100%" border="0"> 
+		<tbody><tr> 
+		<td> 
+		<div class="movingtext"> 
+		<marquee behavior="scroll" direction="left" scrollamount="1"><a href="http://10.254.254.88/0/up/" target="_blank"><p> 24/7 Customer care &nbsp;&nbsp;<img src="./IPACCT _ User information portal_files/z_tel_small.jpg">  033-71002000 &nbsp;&nbsp;<img src="./IPACCT _ User information portal_files/z_tel_small.jpg">  1800 1200 300 Toll free&nbsp;&nbsp; <img src="./IPACCT _ User information portal_files/z_email_small.jpg">  abspl@alliancebroadband.co.in  <!-- &nbsp;&nbsp; <img src="z_skype_small.jpg" />  skype: alliance_broadband --></p></a></marquee> 
+		</div> 
+		</td> 
+		</tr> 
+		</tbody></table> 
+		<table cellspacing="0" cellpadding="0" width="100%" border="0" id="thetable" height="139"> 
+		<tbody><tr> 
+		  <td width="255"><img border="0" src="./IPACCT _ User information portal_files/z_clientzone.jpg" width="255"> 
+			</td> 
+			
+           <td align="center" valign="middle" class="needfill"><img style="padding-left: 50px;" src="./IPACCT _ User information portal_files/z_extreme_alliance_logo.png"></td>  
+			
+        		<!-- Start of user data   -->
+        	    <td align="right" class="needfill2" width="420"> 
+				<div id="innerlist"> 
+				<table cellspacing="0" cellpadding="0" width="100%" border="0" id="thesmalltable" style="table-layout:fixed;"> 
+					<tbody><tr><td width="100" height="17" align="left"><p><span>Name:</span></p></td><td align="left">MANASI BANDYOPADHYAY</td></tr> 
+					<tr><td height="17" align="left"><p><span>Address:</span></p></td><td align="left">RAI RAMCHANDRAPUR, MUKHERJEE PARA, WEST BENGAL, PIN-713128</td></tr> 
+					<tr><td height="18" align="left"><p><span>CLIENT ID:</span></p></td><td align="left">10980211104</td></tr> 
+					<tr><td height="18" align="left"><p><span>Package:</span></p></td><td align="left">PACE+</td></tr> 
+					<tr><td height="18" align="left"><p><span>Expiry date:</span></p></td><td align="left">26.03.2022<span class="span2"></span></td></tr> 
+					<tr><td height="18" align="left"><p><span>E-mail:</span></p></td><td align="left">n/a</td></tr> 
+				</tbody></table>  
+                <!-- end of user data -->  
+                  
+			  </div> 
+		  </td> 
+		</tr> 
+		</tbody></table> 
+  </div> 
+	<div id="bd"> 
+<div id="yui-main"> 
+			<div class="yui-b" id="content"> 
+ 
+
+<br>
+
+
+<!--[if lt IE 8]>
+
+<div class="info">
+You are using Internet Explorer 7 or older version which is incompatible with this site. You may experience problems using it.
+We recommend you to go and download latest <a href="http://www.google.com/chrome">Google Chrome</a> or <a href="http://www.mozilla.com/en-US/firefox/new/">Firefox</a> browsers.
+</div>
+<![endif]-->
+
+<b>Service suspended</b><br><br>
+<div class="warning">Your internet subscription has expired on <b>26.03.2022</b> and terminated on <b>26.03.2022</b>. </div>
+<center>
+<img src="./IPACCT _ User information portal_files/hungama.jpg" style="margin-right:0px; width:80%"><br><br>
+</center>
+<hr>
+
+
+<br>
+
+      </div> 
+	  </div> 
+<!-- @wlogin11@ -->	
+	<div class="yui-b"> 
+	
+    	
+		<div id="menu_top"> 
+		</div> 
+ 
+        <div id="menu"> 
+		
+
+	
+	 	<ul class="midlink1"> 
+			<li><a href="http://10.254.254.88/0/up/">Home</a></li> 
+            <li><a href="http://10.254.254.88/0/up/">Service status</a></li>
+            <li><a href="http://10.254.254.88/0/up/chpw">Change password</a></li>  
+			<li><a href="http://10.254.254.88/0/up/IPConnectInstaller.exe">Download IP Connector <img src="./IPACCT _ User information portal_files/z_new.gif"></a></li> 
+          <li><a href="javascript:void(0);" class="selected">Billing information</a></li> 
+		<!--  		<li><a href="/0/up/underc" class="innermenu">» Renewal history</a></li> -->
+				<li><a href="http://10.254.254.88/0/up/linv" class="innermenu">» Invoices</a></li>  
+			<li><a href="javascript:void(0);" class="selected">Bandwidth usage</a></li> 
+				<li><a href="http://10.254.254.88/0/up/llog" class="innermenu">» Sessions</a></li> 
+				<li><a href="http://10.254.254.88/0/up/grph" class="innermenu">» Graphs</a></li> 
+	        <li><a id="feedback" href="http://10.254.254.88/0/up/#">Feedback</a></li> 
+          </ul> 
+	
+
+		</div> 
+		<div id="menu_bottom"></div> 
+	</div> 
+<!-- @wlogin11@ -->
+	</div> 
+</div> 
+	
+    
+    
+    <div id="fr"> 
+	<table cellspacing="0" cellpadding="0" width="100%" border="0" id="foottable" height="190"> 
+		<tbody><tr> 
+			<td align="right" width="5%"> 
+			</td> 
+		<td width="33%" height="151" valign="top" align="left"> 
+		<div id="support"> 
+	<h2>Customer care:</h2> 
+        <p><img src="./IPACCT _ User information portal_files/z_tel_logo.gif" id="telimg">&nbsp;&nbsp;033-71002000</p><p> 
+        </p><p><img src="./IPACCT _ User information portal_files/z_tel_logo.gif">&nbsp;&nbsp;1800 1200 300 Toll Free</p> 
+        <p></p> 
+        <img src="./IPACCT _ User information portal_files/z_mail_logo.gif" id="emailimg"><p id="mail"><a href="mailto:abspl@alliancebroadband.co.in">abspl@alliancebroadband.co.in </a></p> 
+       <!-- <img src="z_skype_logo.gif" id="skypeimg"/> <p id="skype">alliance_broadband &nbsp; </p> <a href="skype:alliance_broadband?call" id="skypecall"> <img width="114" height="20" border="0" alt="You need skype Skype" src="z_helpdesk.png" /></a>  -->
+ 
+		</div>	
+			</td> 
+		
+		<td width="35%" valign="top" align="left"> 
+		<h2>Links</h2> 
+		<!-- <p><a target="_blank" href="http://filmocean.net">High speed Movies download</a><br /> 
+		<a target="_blank" href="http://torbox.net">Search for high speed torrents</a><br /> 
+		<a target="_blank" href="http://www.alliancekolkata.co.in/services.php">Check our services</a><br />-->
+                <a target="_blank" href="http://www.alliancebroadband.co.in/">Alliance Broadband web</a><p></p> <p></p> 
+		</td> 
+ 
+		<td width="30%" valign="top" align="left"> 
+		<h2>Connect with us:</h2><br><br> 
+		<a href="http://10.254.254.88/0/up/#" target="_blank" title="Twitter"><img src="./IPACCT _ User information portal_files/z_twitter_icon.gif"></a> 
+		<a href="http://10.254.254.88/0/up/#" target="_blank" title="Facebook"><img src="./IPACCT _ User information portal_files/z_facebook_icon.png"></a> 
+		<a href="http://10.254.254.88/0/up/#" target="_blank" title="YouTube"><img src="./IPACCT _ User information portal_files/z_youtube_icon.png"></a> 
+		</td> 
+		
+		<td align="right" width="10%"> 
+		</td> 
+		</tr> 
+		</tbody></table> 
+	
+	<div id="frtxt"><p>2011, IPACCT LTD, All Rights Reserved</p></div> 
+	
+ 
+</div> 
+ 
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

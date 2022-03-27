@@ -1,0 +1,24 @@
+<DOCTYPE html!>
+<html>
+<head>
+
+<title>form</title>
+
+</head>
+
+<body>
+<form>
+<legend>Form</legend>
+<label for="name">Name</label><br><br>
+<input  type="text" name="name" ><br><br>
+
+
+</form>
+
+
+
+</body>
+
+
+
+</html>
